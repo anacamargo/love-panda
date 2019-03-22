@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+
+body, figure, p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.align-title{
+    text-align: right;
+    margin-right: 50px;
+}
+.subtitle{  margin-bottom: 35px;}
+
+.container-image{
+    overflow: hidden;
+} 
+
+.image{
+    display: block;
+    width: 100%;
+    filter:grayscale(100%);
+    height: auto;
+}
+
+.first-image{
+    margin: -145px 0;
+}
+
+.second-image{
+    margin-bottom: -150px;
+}
+
+.third-image{
+    margin-bottom: -70px;
+}
+.section-article{
+    margin: 15px 0;
+    padding: 50px 0;
+}
+
+.container-article{
+    width: 42%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.section-pictures{
+    margin: 15px 0;
+    padding: 5px 0 40px;
+}
+
+.container-images figure {
+    text-align: center;
+}
+
+.row{
+    margin: 0px !important;
+}
+.thumbnail-image{
+    border: 8px solid #ffffff;
+}
+
+.text-footer{
+    text-align: right;
+    margin-right: 20px;
+    padding: 5px 0 10px;
+}
+
+@media screen and (max-width:350px){
+    .first-image{margin: -20px 0;}
+    .second-image{margin-bottom: -40px;}
+    .third-image{margin-bottom: -15px;}
+    .container-article{width: 98%;}
+}
+
+@media screen and (min-width:351px) and (max-width: 600px){
+    .first-image{margin: -30px 0;}
+    .second-image{margin-bottom: -70px;}
+    .third-image{margin-bottom: -20px;}
+    .container-article{width: 90%;}
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+    .first-image{margin: -70px 0;}
+    .second-image{margin-bottom: -115px;}
+    .third-image{margin-bottom: -40px;}
+    .container-article{width: 60%;}
+}
